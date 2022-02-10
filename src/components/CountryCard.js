@@ -11,7 +11,7 @@ const CountryCard = (props) => {
     return ( 
         <CountryBox>
             <CountryFlag>
-                <img loading="lazy" src={flag} alt={ `${name} flag` }></img>
+                <img src={flag} alt={ `${name} flag` }></img>
             </CountryFlag>
             <CountryDetails>
                 <h3>{ name }</h3>

@@ -114,7 +114,7 @@ const Home = () => {
             </SearchBarAndFilter>
             <AllCountriesBox>
                 { error && <SearchNotFound message={error} /> }
-                { isLoading && <img src={loadingGif} width={500} height={500}></img> }
+                { isLoading && <img src={loadingGif} alt="loading" width={500} height={500}></img> }
                 { countryDetails && countryDetails.map((item, index) => (
                     <Link to={ `/country/${item.name.common}` }>
                         <CountryCard key={index} name={item.name.common} flag={item.flags.png} population={item.population} capital={ item.hasOwnProperty("capital") ? item.capital[0] : "Unknown"} region={item.region} />
