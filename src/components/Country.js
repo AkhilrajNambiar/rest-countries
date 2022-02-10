@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 import { CountryPageFlex, CountryPageBox, CountryDetailLeft, CountryDetailRight, NeighbouringCountries } from "./styled/CountryPageBox";
 import loadingGif from "../images/nicer_loading.gif";
 import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useEffect } from "react";
 import { useHistory } from "react-router-dom";
 
 const Country = () => {

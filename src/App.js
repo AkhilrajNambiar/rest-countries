@@ -5,7 +5,7 @@ import LightTheme from "./components/styled/LightTheme";
 import DarkTheme from "./components/styled/DarkTheme";
 import { useState } from "react";
 import Home from "./components/Home";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Country from "./components/Country";
 
 
